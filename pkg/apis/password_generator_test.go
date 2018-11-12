@@ -1,7 +1,7 @@
-package patching_test
+package apis_test
 
 import (
-	"github.com/kun-lun/patching/pkg/patching"
+	patching "github.com/kun-lun/patching/pkg/apis"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

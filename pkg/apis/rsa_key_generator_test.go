@@ -1,10 +1,9 @@
-package patching_test
+package apis_test
 
 import (
+	patching "github.com/kun-lun/patching/pkg/apis"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-
-	"github.com/kun-lun/patching/pkg/patching"
 )
 
 var _ = Describe("RsaKeyGenerator", func() {

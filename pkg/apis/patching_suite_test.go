@@ -1,4 +1,4 @@
-package patching_test
+package apis_test
 
 import (
 	"testing"

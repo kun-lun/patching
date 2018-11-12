@@ -9,7 +9,7 @@ import (
 )
 
 type VarsFileArg struct {
-	Fs fileio.Fs
+	fs fileio.Fs
 
 	Vars StaticVariables
 }
@@ -19,7 +19,7 @@ func (a *VarsFileArg) UnmarshalFlag(filePath string) error {
 		return errors.New("Expected file path to be non-empty")
 	}
 
-	bytes, err := a.Fs.ReadFile(filePath)
+	bytes, err := a.fs.ReadFile(filePath)
 	if err != nil {
 		return errors.New(err.Error() + fmt.Sprintf("Reading variables file '%s'", filePath))
 	}

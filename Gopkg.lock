@@ -29,11 +29,11 @@
   name = "github.com/kun-lun/artifacts"
   packages = ["pkg/apis"]
   pruneopts = "UT"
-  revision = "d3c4ddc71ea44f030a85a23c5f06da6944c65bc7"
+  revision = "58f656608dad4fde33d45153e339aa6a23a70fe4"
 
 [[projects]]
   branch = "draft"
-  digest = "1:6fbe8857b60733d42cd9209162c0276af8e64c1e6c35728387d019b4dbff5769"
+  digest = "1:04f13f26268a54253cb79770039d383867737ac7117ed6d2dbeb91412850d960"
   name = "github.com/kun-lun/common"
   packages = [
     "errors",
@@ -41,7 +41,7 @@
     "storage",
   ]
   pruneopts = "UT"
-  revision = "6b9fd456f26e3b8d25d4c6066fcf79205fb7bb79"
+  revision = "11580d80d8ecaebf40fc4aee67d8f882ef7ed48b"
 
 [[projects]]
   branch = "master"
@@ -132,7 +132,7 @@
     "ssh",
   ]
   pruneopts = "UT"
-  revision = "e4dc69e5b2fd71dcaf8bd5d054eb936deb78d1fa"
+  revision = "3d3f9f413869b949e48070b5bc593aa22cc2b8f2"
 
 [[projects]]
   branch = "master"
